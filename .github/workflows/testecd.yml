@@ -52,3 +52,4 @@ jobs:
             context: .
             push: true
             tags: user/app:latest
+
