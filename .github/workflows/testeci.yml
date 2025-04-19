@@ -50,6 +50,6 @@ jobs:
       - name: Run Discord Webhook
         uses: rjstone/discord-webhook-notify@v1
         with:
-          webhook_url: ${{ secrets.DISCORD_WEBHOOK }}
+          webhookUrl: ${{ secrets.DISCORD_WEBHOOK }}
           content: "Test"
 
