@@ -16,7 +16,7 @@ async def test_funcaoteste():
         result = await funcaoteste()
 
 
-    assert funcaoteste == {"teste": True, "número aleatório": 12345}
+    assert result == {"teste": True, "número aleatório": 12345}
 
 
 @pytest.mark.asyncio
