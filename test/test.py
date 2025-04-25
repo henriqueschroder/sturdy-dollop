@@ -15,7 +15,6 @@ async def test_funcaoteste():
     with patch('random.randit', return_value=12345):
         result = await funcaoteste()
 
-
     assert result == {"teste": True, "número aleatório": 12345}
 
 
